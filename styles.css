@@ -1,0 +1,13 @@
+h2{background-color:cornflowerblue; color:white;}
+p{font-family:'Times New Roman', Times, serif}
+a{font-family:'Times New Roman', Times, serif}
+h4{font-family:'Times New Roman', Times, serif}
+.bigstory{
+    color:cornflowerblue; text-align:center; background-color:lightslategray;
+.lineit{
+font-weight:bold;
+}
+}
+.greyout{
+color:lightslategray
+}
