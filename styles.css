@@ -27,4 +27,5 @@ div{
   background-image:url("Images/mountainbg.png");
   background-repeat:no-repeat;
   background-attachment: scroll;
+  background-size:100vw;
 }
