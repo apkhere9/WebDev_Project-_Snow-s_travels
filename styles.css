@@ -1,20 +1,18 @@
-h2{background-color:cornflowerblue; color:white;}
+h2{background-color:#BCF8FF; color:#3F4D66;}
 p{font-family:'Times New Roman', Times, serif}
 a{font-family:'Times New Roman', Times, serif}
 h4{font-family:'Times New Roman', Times, serif}
 #bigstory{
-    color:aqua; text-align:center; background-color:lightslategray;
+    color:aqua; text-align:center; background-color:#3B4960;
 .lineit{
+    
 font-weight:bold;
 }
 }
-.greyout{
-color:lightslategray
+.greenout{
+color:#77FF99;
 }
-div{
-    width:75vw;
-    height:95vw;
-}
+
 #boxpage{
     background-color:whitesmoke;
     border-color:burlywood;
@@ -22,6 +20,15 @@ div{
     border-style:solid;
     padding:10px;
     margin:auto;
+    width:75vw;
+    height:95vw;
+}
+.vistext{
+    background-color:#481D1D;
+    color:burlywood;
+    padding:5px;
+    border-radius:5px;
+    border-style:solid;
 }
 #makesanimage{
   background-image:url("Images/mountainbg.png");
