@@ -4,11 +4,18 @@ a{font-family:'Times New Roman', Times, serif}
 h4{font-family:'Times New Roman', Times, serif}
 #bigstory{
     color:aqua; text-align:center; background-color:#3B4960;
+    transition: background-color 0.2s ease 0.5s, color 0.2s ease 0.5s;
+}
+#bigstory:hover{
+background-color:black;
+color:burlywood;
+}
+
 .lineit{
     
 font-weight:bold;
 }
-}
+
 .greenout{
 color:#77FF99;
 }
@@ -36,5 +43,37 @@ color:#77FF99;
   background-repeat:no-repeat;
   background-attachment: scroll;
   background-size:100vw;
+}
+.hoverbold:hover{
+font-weight:900;
+color:darkmagenta
+}
+.flexbox {
+      display: flex;
+      flex-wrap: nowrap;
+      width: 100%;
+      margin: auto;
+}
+.flexbox img{
+    width: 25%;
+    margin: 1vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+@media (max-width: 600px) {
+  .flexbox{
+    width:25%
+  }
+}
+
+@media (max-width: 900px) {
+  .flexbox{
+    width:50%
+  }
+}
+@media (min-width: 1024px) {
+  .flexbox{
+    width:75%
+  }
 }
 /* Helping push */
